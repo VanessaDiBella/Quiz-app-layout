@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(43, 4, 30);
   display: flex;
@@ -25,17 +31,21 @@ h1 {
 }
 
 .question_card {
-  background-color: rgb(255, 250, 253);
+  background-color: rgb(255, 246, 251);
   border: solid 3px rgb(218, 164, 182);
   border-radius: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   position: relative;
-  padding: 10px;
 }
 
 .question {
-  padding: 20px;
+  padding: 10px;
   color: rgb(43, 4, 30);
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -49,25 +59,33 @@ h1 {
   border: none;
   font-size: 4rem;
   position: absolute;
-  right: -30px;
   top: -30px;
+  right: -30px;
 }
 
 .button_answer {
-  background-color: rgb(113, 62, 71);
+  background-color: rgb(218, 164, 182);
   border: none;
   border-radius: 10px;
-  color: rgb(240, 214, 218);
+  color: rgb(255, 250, 253);
   padding: 9px;
   padding-left: 25px;
   padding-right: 25px;
-  position: absolute;
-  top: 160px;
-  left: 110px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .tag_section {
   display: flex;
-  padding: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.tag {
+  background-color: rgb(244, 219, 219);
+  color: rgb(43, 4, 30);
+  border-radius: 3px;
+  padding: 5px;
 }
