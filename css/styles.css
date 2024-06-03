@@ -86,7 +86,7 @@ h1 {
 
 .tag_section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .tag {
