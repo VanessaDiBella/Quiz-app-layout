@@ -1,16 +1,33 @@
+body {
+  background-color: rgb(43, 4, 30);
+}
+
 .title {
   width: 100 px;
   height: 90px;
-  background-color: rgb(184, 24, 77);
+  background-color: rgb(218, 164, 182);
+  border-color: rgb(240, 214, 218);
+  border: solid 3px rgb(113, 62, 71);
+  border-radius: 10px;
   display: flex;
   justify-content: center;
 }
 
 h1 {
-  color: pink;
+  color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 2rem;
   display: flex;
   align-content: center;
+}
+
+.question_card {
+  background-color: white;
+  border: solid 3px rgb(218, 164, 182);
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
 }
