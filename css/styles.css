@@ -1,0 +1,16 @@
+.title {
+  width: 100 px;
+  height: 90px;
+  background-color: rgb(184, 24, 77);
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: pink;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  display: flex;
+  align-content: center;
+}
